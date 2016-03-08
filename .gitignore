@@ -1,0 +1,20 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+*.sass-cache*
+
+db/
+nbproject/
+Thumbs.db
+.DS_Store
+.idea
+phpmyadmin/
+sites/sites*.php
+sites/sites.php
+sites/all/themes/unsw/config.*
+*.map
+.brackets.json
+php.ini
